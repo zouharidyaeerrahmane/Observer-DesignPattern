@@ -11,8 +11,18 @@ import com.zouhari.obs.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Observable observable = new ObservableImpl();
+        ObservableImpl observable = new ObservableImpl();
         Observer o1 = new ObserverImpl1();
         Observer o2 = new ObserverImpl2();
+
+        observable.addObserver(o1);
+        observable.addObserver(o2);
+
+
+        observable.setState(60);
+        observable.setState(40);
+        observable.removeObserver(o2);
+        observable.setState(80);
+
         }
     }
