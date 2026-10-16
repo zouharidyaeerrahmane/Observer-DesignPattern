@@ -5,18 +5,14 @@
 
 ## Table des matières
 
-2. [Le pattern Observer](#le-pattern-observer)
-3. [Structure du projet](#structure-du-projet)
-4. [Architecture et diagrammes](#architecture-et-diagrammes)
-5. [Description des classes](#description-des-classes)
-6. [Scénario de démonstration](#scénario-de-démonstration)
-7. [Prérequis](#prérequis)
-8. [Compilation et exécution](#compilation-et-exécution)
-9. [Résultat attendu](#résultat-attendu)
-10. [Ajouter un nouvel observateur](#ajouter-un-nouvel-observateur)
-11. [Limites et pistes d'amélioration](#limites-et-pistes-damélioration)
-12. [Historique du projet](#historique-du-projet)
-13. [Auteur](#auteur)
+1. [Le pattern Observer](#le-pattern-observer)
+2. [Structure du projet](#structure-du-projet)
+3. [Architecture et diagrammes](#architecture-et-diagrammes)
+4. [Description des classes](#description-des-classes)
+5. [Scénario de démonstration](#scénario-de-démonstration)
+6. [Résultat attendu](#résultat-attendu)
+7. [Ajouter un nouvel observateur](#ajouter-un-nouvel-observateur)
+8. [Auteur](#auteur)
 
 ---
 
